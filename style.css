@@ -9,3 +9,24 @@
     height: 40px;
     border-radius: 10px;
 }
+
+.weather-hr{
+    width: 270px;
+}
+
+.today {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.col-lg-3 {
+    margin-right: -35px;
+}
+
+.col-lg-9 {
+    margin-left: -35px;
+}
+
+.fa-sun {
+    color: orangered;
+}
