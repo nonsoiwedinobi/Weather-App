@@ -3,7 +3,7 @@ $(document).ready(function() {
     $("#currentDay").html("London " + "(" + currentDate + ")" + ' <i class="fas fa-cloud px-2 mb-3"></i>');
 
     var apiKey = "57e379b16a32c427339a11fe59689328"; 
-    var apiUrl = "https://api.openweathermap.org/data/2.5/weather";
+    var apiUrl = "https://api.openweathermap.org";
     var searchHistory = $("#history");
 
   // Initial city for demonstration
