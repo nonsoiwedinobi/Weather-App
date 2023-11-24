@@ -2,9 +2,8 @@ $(document).ready(function() {
     var currentDate = new Date().toLocaleDateString("en-GB");
     $("#currentDay").html("London " + "(" + currentDate + ")" + ' <i class="fas fa-cloud px-2 mb-3"></i>');
 
-    var apiKey = "57e379b16a32c427339a11fe59689328"; 
+    var apiKey = "6f83c14a6bcce6889ecd90ad33b4ace6"; 
     var apiUrl = "https://api.openweathermap.org/data/2.5/weather";
-    var searchHistory = $("#history");
 
   // Initial city for demonstration
     var defaultCity = "London";
