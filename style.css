@@ -8,6 +8,7 @@
     width: 270px;
     height: 40px;
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 .weather-hr{
@@ -27,6 +28,35 @@
     margin-left: -35px;
 }
 
-.fa-sun {
-    color: orangered;
+.iconGroup {
+    display: flex;
+    flex-direction: row;
+}
+
+.currentIcon{
+    width: 40px;
+}
+
+.icon1{
+    width: 40px;
+}
+
+.icon2{
+    width: 40px;
+}
+
+.icon3{
+    width: 40px;
+}
+
+.icon4{
+    width: 40px;
+}
+
+.icon5{
+    width: 40px;
+}
+
+.card {
+    height: 240px;
 }
